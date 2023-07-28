@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fruit-website</title>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/8496f21b50.js" crossorigin="anonymous"></script>
+
+    <!-- linked to tailwind and daisy  -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header>
+       <nav>
+        <div>
+            <div class="bg-[#F85559] rounded-full mx-auto max-w-screen-2xl p-5">
+                <div class="flex justify-between items-center">
+                    <div class="text-xl text-white flex gap-5">
+                        <a href=""> <h4>Home</h4></a>
+                        <a href=""> <h4>About Us</h4></a>
+                        <a href=""> <h4>Shop</h4></a>
+                        <a href=""> <h4>All Fruits</h4></a>
+                    </div>
+
+                    <div class="flex">
+                        <img src="./images/logo.png" alt="">
+                        <h2 class="text-5xl text-white">Fruit Burst</h2>
+                    </div>
+
+                    <div class="input input-bordered rounded-full h-[30px] w-[400px] md:w-auto">
+                        <input type="text" placeholder="Search Here"/> 
+                    </div>
+                </div>
+            </div>
+        </div>
+       </nav>
+    </header>
+
+    <main>
+        <!-- deal of the day -->
+        <section class="mt-10">
+            <div class="justify-center">
+            <div class="flex justify-around">
+            <div class="mb-5">
+                <h1 class="text-5xl text-black">Deal of the day</h1>
+                <p class="text-xl text-slate-400 mt-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+
+            <div class="flex gap-5">
+                <div>
+                  <span class="countdown font-mono text-4xl">
+                    <span style="--value:15;"></span>
+                  </span>
+                  days
+                </div> 
+                <div>
+                  <span class="countdown font-mono text-4xl">
+                    <span style="--value:10;"></span>
+                  </span>
+                  hours
+                </div> 
+                <div>
+                  <span class="countdown font-mono text-4xl">
+                    <span style="--value:24;"></span>
+                  </span>
+                  min
+                </div> 
+                <div>
+                  <span class="countdown font-mono text-4xl">
+                    <span style="--value:21;"></span>
+                  </span>
+                  sec
+                </div>
+              </div>
+        </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                <!-- fruit-1  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <hr>
+                      
+                      <p class="text-xl">Apples</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" checked />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                      </div>
+                      <a href=""><h4 class="text-[#F85559] underline">Details</h4></a>
+
+                    </div>
+                  </div>
+                <!-- fruit-2  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <hr>
+                      
+                      <p class="text-xl">Apples</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" checked />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                      </div>
+                      <a href=""><h4 class="text-[#F85559] underline">Details</h4></a>
+
+                    </div>
+                  </div>
+                <!-- fruit-3  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <hr>
+                      
+                      <p class="text-xl">Apples</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" checked />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                      </div>
+                      <a href=""><h4 class="text-[#F85559] underline">Details</h4></a>
+
+                    </div>
+                  </div>
+                <!-- fruit-4  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <hr>
+                      
+                      <p class="text-xl">Apples</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" checked />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                        <input type="radio" name="rating-1" class="mask mask-star" />
+                      </div>
+                      <a href=""><h4 class="text-[#F85559] underline">Details</h4></a>
+
+                    </div>
+                  </div>
+            </div>
+
+<div class=" flex justify-center  mt-8" >
+            <button class="btn  bg-[#F85559]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                Shop Now
+              </button>
+            </div>
+            </div>
+        </section>
+
+        <!-- meet the team section  -->
+        <section class="mt-10">
+            <div class=" text-center">
+                <h2 class="text-5xl ">Meet the team section</h2>
+                <p class="text-xl mt-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+
+            <div class="hero min-h-screen" style="background-image: url('./images/team.png');">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+
+    </main>
+
+        <footer class="footer footer-center p-10 bg-base-200 bg-[#121212] text-base-content rounded">
+            <div class="text-white flex text-5xl">
+                <img src="./images/logo.png" alt="">
+                <h2>Fruit Burst</h2>
+            </div>
+
+            <div class="grid grid-flow-col gap-4 text-white">
+              <a class="link link-hover">Home</a> 
+              <a class="link link-hover">About Us</a> 
+              <a class="link link-hover">Shop</a> 
+              <a class="link link-hover">All Fruits</a>
+              <a class="link link-hover">Support</a>
+              <a class="link link-hover">My Account</a>
+
+            </div> 
+            <div>
+                <div class="grid grid-flow-col gap-4 text-cyan-400">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-apple"></i>
+                  
+                </div>
+              </div> 
+           
+            
+          </footer>
+    
+
+    
+</body>
+</html>
